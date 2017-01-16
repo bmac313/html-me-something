@@ -1,0 +1,1 @@
+A simple web page, created for the first assignment of Unit 2 in LaunchCode's LC 101.
