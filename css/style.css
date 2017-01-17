@@ -10,18 +10,44 @@ body {
 }
 
 .navbar {
+	background-color: #3e758e;
 	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .navbar ul {
+	height: 100%;
 	list-style: none;
 	padding-left: 0px;
+	margin: 0px;
 }
 
-.navbar ul li {
+.nav-item {
 	display: inline;
-	padding-right: 1%;
-	padding-left: 1%;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav-item a {
+	color: #FFF;
+	height: 100%;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.nav-item a:hover {
+	background-color: #FFF;
+	color: #3e758e;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 
 h1, h2, h3 {
@@ -37,6 +63,7 @@ header h1 {
 	background-color: #5ac4ab;
 	font-size: 64px;
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 h2 {
@@ -51,10 +78,15 @@ h3 {
 	max-width: 1000px;
 	margin: auto;
 	background-color: #5fd854;
+	padding-bottom: 15px;
 }
 
 .subsection {
-	padding-bottom: 25px;
+	border-bottom: 2px dotted black;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 figure {
@@ -71,7 +103,20 @@ figcaption {
 }
 
 footer p {
+	color: #0a0a0a;
 	margin-bottom: 0px;
 	font-size: 13px;
 	font-style: italic;
+}
+
+@media screen and (max-width: 890px) {
+	.nav-item {
+		display: block;
+		font-size: 100%;
+		text-align: center;
+	}
+	
+	header h1 {
+		text-align: center;
+	}
 }
