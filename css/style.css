@@ -74,6 +74,14 @@ h3 {
 	font-size: 20px;
 }
 
+#header-para {
+	border-bottom: 2px dotted black;
+	padding-bottom: 24px;
+	padding-top: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .main-col {
 	max-width: 1000px;
 	margin: auto;
@@ -99,6 +107,7 @@ figcaption {
 }
 
 .subsection figure img {
+	padding-top: 20px;
 	width: 100%;
 }
 
