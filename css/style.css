@@ -112,11 +112,24 @@ footer p {
 @media screen and (max-width: 890px) {
 	.nav-item {
 		display: block;
-		font-size: 100%;
+		font-family: 'Lato Light', sans-serif;
+		font-size: 2em;
 		text-align: center;
 	}
 	
 	header h1 {
 		text-align: center;
+	}
+	
+	h3, h2 {
+		font-size: 36px;
+	}
+	
+	figcaption, footer p {
+		font-size: 20px;
+	}
+	
+	.subsection p, .main-list p {
+		font-size: 24px;
 	}
 }
